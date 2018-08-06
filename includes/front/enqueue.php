@@ -33,7 +33,7 @@ function kota_enqueue() {
     wp_register_script('kota_owl', get_template_directory_uri(). '/js/owl.carousel.min.js', array(), FALSE, TRUE);
     wp_register_script('kota_isotope', get_template_directory_uri(). '/js/isotope.pkgd.min.js', array(), FALSE, TRUE);
     wp_register_script('kota_slick', get_template_directory_uri(). '/js/slick.min.js', array(), FALSE, TRUE);
-    wp_register_script('kota_form', get_template_directory_uri(). '/js/ajax-form.js', array(), FALSE, TRUE);
+    //wp_register_script('kota_form', get_template_directory_uri(). '/js/ajax-form.js', array(), FALSE, TRUE);
     wp_register_script('kota_images', get_template_directory_uri(). '/js/imagesloaded.pkgd.min.js', array(), FALSE, TRUE);
     wp_register_script('kota_magnific_popup', get_template_directory_uri(). '/js/jquery.magnific-popup.min.js', array(), FALSE, TRUE);
     wp_register_script('kota_plugins', get_template_directory_uri(). '/js/plugins.js', array(), FALSE, TRUE);
@@ -45,7 +45,7 @@ function kota_enqueue() {
     wp_enqueue_script('kota_owl');
     wp_enqueue_script('kota_isotope');
     wp_enqueue_script('kota_slick');
-    wp_enqueue_script('kota_form');
+   // wp_enqueue_script('kota_form');
     wp_enqueue_script('kota_images');
     wp_enqueue_script('kota_magnific_popup');
     wp_enqueue_script('kota_plugins');

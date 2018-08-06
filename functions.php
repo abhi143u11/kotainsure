@@ -16,4 +16,6 @@ add_action('after_setup_theme','kota_setup_theme');
 // Shortcodes
 
 
-//Remove all classes and ID from Nav Menu
+//Remove all auto added p tags
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );
