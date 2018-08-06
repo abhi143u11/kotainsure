@@ -1,11 +1,11 @@
 <h1>HTML to WordPress theme Conversion</h1>
 
 
-//Pages done
+1.Pages done
 
-//Single Posts Done
+2.Single Posts Done
 
 Pending Tasks
 
-1.Comments Section on each post
+1.Comments Section on each post<br/>
 2.Post Archive Formats
